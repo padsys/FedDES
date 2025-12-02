@@ -1,0 +1,19 @@
+{
+  "num_nodes": 16,
+  "clients_per_node": 64,
+  "epochs": 10240,
+  "max_local_steps": 10,
+  "q_ratio": 0.2,
+  "lambda": 1.5,
+  "dataloader_cost": 0.0,
+  "aggregation_cost": 0.3,
+  "validation_cost": 0.1,
+  "training_cost": 2.5,
+  "comm_cost": 38123587,
+  "validation_flag": 0,
+  "stragglers": [
+    { "client": 0, "effect": 1.5 },
+    { "clients": [3, 9, 27], "effect": 2.0 },
+    { "range": { "start": 40, "end": 63 }, "effect": 0.7 }
+  ]
+}

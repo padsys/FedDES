@@ -1,0 +1,15 @@
+{
+  "num_nodes": 16,
+  "clients_per_node": 64,
+  "control": 2,
+  "epochs": 20,
+  "dataloader_cost": 1.2e8,
+  "aggregation_cost": 0.0113,
+  "training_cost": 30,
+  "comm_cost": 38123587, 
+  "stragglers": [
+    { "client": 0, "effect": 1.5 },
+    { "clients": [3, 9, 27], "effect": 2.0 },
+    { "range": { "start": 40, "end": 63 }, "effect": 0.7 }
+  ]
+}
